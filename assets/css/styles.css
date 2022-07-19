@@ -1,0 +1,129 @@
+html,body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
+
+img{
+    width: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.modal-header{
+    align-items: center;
+    border-bottom: 0.5px solid #231955;
+}
+
+.modal-content{
+    padding: 0 22px;
+}
+
+.modal-icons{
+    border-top: 0.5px solid #231955;
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    padding: 16px;
+}
+
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+
+.version{
+    color: #444;
+    font-size: 18px;
+}
+
+a:link, a:visited{
+    color: #231955;
+    outline: 0;
+    text-decoration: none;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+
+.flex {
+    opacity: 0.4;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+
+.flex:hover{
+    opacity: 0.4;
+}
+
+i{
+    font-size: 30px;
+    color: #293462;
+}
+
+i:hover{
+    color: #FF4949;
+}
+
+
+.fa-animated { 
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; 
+	transition: all 0.3s ease;
+	cursor: pointer;
+	vertical-align: bottom;
+  }
+
+  .fa-animated:hover {
+	padding-top: 0px;
+	padding-bottom: 30px;
+  }
+
+  .fa-animated::after {
+	content : "";
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	bottom: 0;
+	height: 0px;
+	width: 100%;
+	border-bottom: 2px solid #293462;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease; 
+	transition: all 0.3s ease;
+	border-radius: 90px;
+  }
+
+  .fa-animated:hover::after {
+	left: 20%;
+	right: 20%;
+	width: 60%;
+	border-bottom: 1px solid #FF4949;
+  }
