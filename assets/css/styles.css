@@ -85,6 +85,17 @@ i:hover{
     color: #FF4949;
 }
 
+ #modal-footer{
+        background-color: rgba(0,0,0,0.6);
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+  }
+
+  #modal-footer a{
+    color: #ffffff;
+  }
+
 
 .fa-animated { 
 	position: relative;
