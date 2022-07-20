@@ -3,8 +3,7 @@ Developers don't talk much. Their code does all the talking. So here's a google 
 
 Here's my **Google Chrome Extension**  - 
 
-![Developer.gif](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g15z8u3b4te4bwjjkd1n.gif)
- 
+![Developer.gif](https://user-images.githubusercontent.com/91548582/180037031-5a5c83b6-0247-44de-8f15-248f7030758d.gif) 
 
 
 ## License  📝
